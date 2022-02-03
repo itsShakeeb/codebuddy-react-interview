@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom';
 const Home = () => {
   const history = useHistory();
 
-  const onSubmit = () => history.push('/posts');
+  const onSubmit = () => history.push('/seats');
 
   return (
     <main>
@@ -20,7 +20,7 @@ const Home = () => {
       </Jumbotron>
       <Container>
         <Form>
-          <Button onClick={onSubmit}>Goto Posts</Button>
+          <Button onClick={onSubmit}>Goto Seats</Button>
         </Form>
       </Container>
     </main>
